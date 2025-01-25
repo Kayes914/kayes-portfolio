@@ -173,7 +173,17 @@ const Footer: React.FC = () => {
               {/* Copyright */}
               <div className="text-gray-400 text-sm">
                 <span aria-label={`Copyright ${currentYear} Your Name`}>
-                  © {currentYear} <span className="text-white">Mahmudullah Kayes</span>
+                  © {currentYear}{' '}
+                  <a 
+                    href="https://www.linkedin.com/in/mahmudullah-kayes/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-white hover:text-blue-400 transition-colors duration-300 
+                      hover:underline decoration-blue-400 decoration-2 underline-offset-4"
+                    aria-label="Visit Mahmudullah Kayes's LinkedIn profile"
+                  >
+                    Mahmudullah Kayes
+                  </a>
                 </span>
               </div>
             </div>
