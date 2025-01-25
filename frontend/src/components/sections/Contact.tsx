@@ -162,6 +162,21 @@ const Contact: React.FC = () => {
       className="w-full min-h-screen bg-[#0B0F1E] relative overflow-hidden py-20"
       aria-label="Contact section"
     >
+      {/* Add Schema markup for Contact Page */}
+      <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ContactPage",
+          "name": "Contact Mahmudullah Kayes",
+          "description": "Get in touch with Mahmudullah Kayes for web development projects and collaborations",
+          "url": "/contact",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "engrkayes914@gmail.com",
+            "contactType": "customer service"
+          }
+        })}
+      </script>
       {/* Return Button */}
       <div className="absolute top-8 left-8 z-20">
         <Link to="/" aria-label="Return to home page">

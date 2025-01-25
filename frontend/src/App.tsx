@@ -100,8 +100,14 @@ const ContactPage = () => (
       <meta name="description" content="Get in touch with Mahmudullah Kayes for web development projects, collaborations, or professional opportunities." />
       <meta property="og:title" content="Contact Mahmudullah Kayes - Frontend Developer" />
       <meta property="og:description" content="Let's discuss your project and create something amazing together." />
-      <meta property="og:url" content="https://kayes-portfolio.netlify.app/contact" />
+      <meta property="og:url" content="/contact" />
       <meta name="robots" content="index, follow" />
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="/images/profile.jpeg" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Contact Mahmudullah Kayes - Frontend Developer" />
+      <meta name="twitter:description" content="Get in touch for web development projects and collaborations." />
+      <meta name="twitter:image" content="/images/profile.jpeg" />
     </Helmet>
     <Suspense fallback={<LoadingSpinner />}>
       <Contact />
