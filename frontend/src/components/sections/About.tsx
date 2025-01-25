@@ -87,7 +87,7 @@ const timelineItems: TimelineItem[] = [
   },
   {
     year: "2024",
-    title: "Full Stack Development",
+    title: "Full Stack Development (Learning)",
     description: "Expanded skills to include backend development and database management."
   }
 ];
