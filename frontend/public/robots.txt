@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kayes-portfolio.netlify.app/sitemap.xml 
